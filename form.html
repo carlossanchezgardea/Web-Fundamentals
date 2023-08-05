@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+<h1>Registration Form</h1>
+<form>
+    <div>
+        <label>First Name: </label>
+        <input type="text" name="firstName" placeholder="First Name...">
+    </div>
+    <br>
+    <div>
+        <label>Last Name: </label>
+        <input type="text" name="lastName" placeholder="Last Name...">
+    </div>
+    <br>
+    <div>
+        <label>Email Address: </label>
+        <input type="email" name="email" placeholder="example@gmail...">
+    </div>
+    <br>
+    <div>
+        <label>Password: </label>
+        <input type="password" name="password" placeholder="">
+    </div>
+    <br>
+    <div>
+        <label>Confirm Password: </label>
+        <input type="password" name="password" placeholder="">
+    </div>
+    <br>
+    <div>
+        <label>Birthday: </label>
+        <input type="date" name="dateOfBirth" placeholder="29/03/1992">
+    </div>
+    <br>
+    <div>
+        <label>Gender:</label><br>
+        <label>Male</label>
+        <input type="radio" name="male">
+        <label>Female</label>
+        <input type="radio" name="male">
+    </div>
+    <br>
+    <div>
+        <label>A short description about myself: </label> <br>
+        <label>
+            <textarea name="aboutMe" cols="25" rows="3"></textarea>
+        </label>
+    </div>
+    <br>
+    <div>
+        <label>Favorite Language: </label>
+        <select name="favoriteLanguage">
+            <option value="javaScript">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="kotlin">Kotlin</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="accept"> Yes, I would like to receive periodic email updates</label>
+        <input type="checkbox" name="accept" id="accept">
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Sign Up">
+    </div>
+</form>
+<div>
+</div>
+</body>
+</html>
+
